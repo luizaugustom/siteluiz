@@ -9,9 +9,6 @@ const links = [
   { label: "GitHub", href: siteConfig.links.github, icon: "⌘" },
   { label: "LinkedIn", href: siteConfig.links.linkedin, icon: "in" },
   { label: "WhatsApp", href: siteConfig.links.whatsapp, icon: "💬" },
-  ...(siteConfig.links.twitter
-    ? [{ label: "Twitter", href: siteConfig.links.twitter, icon: "𝕏" }]
-    : []),
 ];
 
 export function ContactSection() {
