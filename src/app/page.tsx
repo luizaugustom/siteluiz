@@ -1,6 +1,7 @@
 import { HeroSection } from "@/components/sections/HeroSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { TechSection } from "@/components/sections/TechSection";
+import { SoftwaresSection } from "@/components/sections/SoftwaresSection";
 import { EducationSection } from "@/components/sections/EducationSection";
 import { ProjectsSection } from "@/components/sections/ProjectsSection";
 import { ContactSection } from "@/components/sections/ContactSection";
@@ -18,6 +19,7 @@ export default async function Home() {
       <HeroSection />
       <AboutSection />
       <TechSection />
+      <SoftwaresSection />
       <EducationSection />
       <ProjectsSection repos={repos} />
       <ContactSection />

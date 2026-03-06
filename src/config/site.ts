@@ -1,22 +1,24 @@
 export const siteConfig = {
-  name: "Your Name",
+  name: "Luiz Augusto Monteiro",
   title: "Software Developer",
   tagline: "Building digital experiences with code and creativity.",
-  bio: `I'm a software developer passionate about creating efficient, scalable solutions. 
-    With experience across the full stack, I focus on clean architecture and great user experiences. 
-    I enjoy learning new technologies and contributing to open source.`,
-  email: "your.email@example.com",
-  avatarPath: "/avatar.svg",
+  bio: `I am a software developer focused on building modern, efficient, and scalable solutions. With solid expertise in React and Node.js, and experience with Python, I work across the entire development cycle, always prioritizing Clean Architecture and delivering exceptional user experiences.
+
+Currently, at Laev Software Development, I am responsible for the evolutionary maintenance and creation of new functionalities in complex corporate systems. My daily work involves transforming business requirements into robust and sustainable code.
+
+I am driven by continuous learning and contributing to open-source projects. My portfolio includes personal projects from conception to deployment, demonstrating my ability to take ideas from concept to production.   I enjoy learning new technologies and contributing to open source.`,
+  email: "luizlam72@gmail.com",
+  avatarPath: "/me.jpeg",
   links: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    whatsapp: "https://wa.me/5511999999999",
-    twitter: "https://twitter.com/yourhandle",
+    github: "https://github.com/luizaugustom",
+    linkedin: "https://linkedin.com/in/luiz-augusto-monteiro-528385292",
+    whatsapp: "https://wa.me/5548992151944",
   },
   technologies: [
     { name: "TypeScript", category: "Language" },
     { name: "JavaScript", category: "Language" },
     { name: "React", category: "Front-end" },
+    { name: "React Native", category: "Front-end" },
     { name: "Next.js", category: "Front-end" },
     { name: "Node.js", category: "Back-end" },
     { name: "Tailwind CSS", category: "Front-end" },
@@ -27,16 +29,54 @@ export const siteConfig = {
   ],
   education: [
     {
-      title: "Bachelor in Computer Science",
-      institution: "University Name",
-      year: "2020 - 2024",
-      url: undefined,
+      title: "Full Stack Web Development (Node.js, React, React Native)",
+      institution: "Faculdade de Tecnologia Rocketseat",
+      year: "2023 - 202",
+      url: "https://rocketseat.com.br",
     },
     {
-      title: "Full Stack Web Development",
-      institution: "Online Platform",
-      year: "2023",
-      url: "https://example.com",
+      title: "Engenharia de Prompt",
+      institution: "Faculdade de Tecnologia Rocketseat",
+      year: "2025",
+      url: "https://rocketseat.com.br",
+    },
+    {
+      title: "N8N - Introdução a Automação",
+      institution: "Faculdade de Tecnologia Rocketseat",
+      year: "2025",
+      url: "https://rocketseat.com.br",
+    },
+    {
+      title: "N8N - Introdução a Automação",
+      institution: "Faculdade de Tecnologia Rocketseat",
+      year: "2025",
+      url: "https://rocketseat.com.br",
+    },
+  ],
+  softwares: [
+    {
+      name: "MontShop",
+      url: "https://montshop.app",
+      description: "Plataforma de e-commerce e gestão de vendas para lojas físicas e online",
+      username: "empresa@montshop.com",
+      password: "123456",
+      featured: true,
+    },
+    {
+      name: "Bom Lar",
+      url: "https://bom-lar.vercel.app",
+      description: "Plataforma de busca e anúncio de imóveis",
+      username: undefined,
+      password: undefined,
+      featured: false,
+    },
+    {
+      name: "Sistema MontShop",
+      url: "https://sistemamontshop.com",
+      description: "Sistema integrado de gestão empresarial para comércios",
+      username: undefined,
+      password: undefined,
+      featured: false,
     },
   ],
 } as const;
