@@ -46,12 +46,7 @@ I am driven by continuous learning and contributing to open-source projects. My 
       year: "2025",
       url: "https://rocketseat.com.br",
     },
-    {
-      title: "N8N - Introdução a Automação",
-      institution: "Faculdade de Tecnologia Rocketseat",
-      year: "2025",
-      url: "https://rocketseat.com.br",
-    },
+    
   ],
   softwares: [
     {
