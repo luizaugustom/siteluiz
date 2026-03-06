@@ -15,17 +15,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Software Developer",
+  title: "Luiz Augusto | Portfolio",
   description:
     "Portfolio showcasing software development skills, projects, and experience. Built with Next.js.",
   openGraph: {
-    title: "Portfolio | Software Developer",
+    title: "Luiz Augusto | Portfolio",
     description:
       "Portfolio showcasing software development skills, projects, and experience.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Portfolio | Software Developer",
+    title: "Luiz Augusto | Portfolio",
     description: "Portfolio showcasing software development skills and projects.",
   },
 };
