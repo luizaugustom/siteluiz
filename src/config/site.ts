@@ -59,7 +59,7 @@ I am driven by continuous learning and contributing to open-source projects. My 
     },
     {
       name: "Bom Lar",
-      url: "https://bom-lar.vercel.app",
+      url: "https://bomlar.vercel.app",
       description: "Plataforma de busca e anúncio de imóveis",
       username: undefined,
       password: undefined,
