@@ -31,7 +31,7 @@ I am driven by continuous learning and contributing to open-source projects. My 
     {
       title: "Full Stack Web Development (Node.js, React, React Native)",
       institution: "Faculdade de Tecnologia Rocketseat",
-      year: "2023 - 202",
+      year: "2023 - 2026",
       url: "https://rocketseat.com.br",
     },
     {
