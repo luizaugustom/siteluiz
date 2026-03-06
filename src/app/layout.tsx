@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     title: "Luiz Augusto | Portfolio",
     description: "Portfolio showcasing software development skills and projects.",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
