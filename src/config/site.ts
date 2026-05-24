@@ -1,12 +1,13 @@
 export const siteConfig = {
   name: "Luiz Augusto Monteiro",
-  title: "Software Developer",
+  title: "Software developer and support",
   tagline: "Building digital experiences with code and creativity.",
-  bio: `I am a software developer focused on building modern, efficient, and scalable solutions. With solid expertise in React and Node.js, and experience with Python, I work across the entire development cycle, always prioritizing Clean Architecture and delivering exceptional user experiences.
-
-Currently, at Laev Software Development, I am responsible for the evolutionary maintenance and creation of new functionalities in complex corporate systems. My daily work involves transforming business requirements into robust and sustainable code.
-
-I am driven by continuous learning and contributing to open-source projects. My portfolio includes personal projects from conception to deployment, demonstrating my ability to take ideas from concept to production.   I enjoy learning new technologies and contributing to open source.`,
+  bio: `Atualmente, atuo na área de Tecnologia da Informação, onde sou responsável pelo suporte a clientes e pela manutenção de softwares. Meu foco é garantir que a tecnologia seja uma facilitadora, resolvendo problemas complexos com agilidade e garantindo a satisfação de quem utiliza nossas soluções no dia a dia.
+Minha bagagem é híbrida: trago comigo anos de experiência no setor comercial, resiliência e uma facilidade natural em entender as necessidades do público — habilidades que hoje aplico para traduzir demandas técnicas em resultados práticos.
+O que busco e entrego:
+Resolução de Problemas: Diagnóstico e manutenção de sistemas com foco em melhoria contínua.
+Foco no Cliente: Atendimento consultivo e suporte técnico ágil.
+Aprendizado Contínuo: Investimento constante em novos frameworks e metodologias para acompanhar a inovação do setor.`,
   email: "luizlam72@gmail.com",
   avatarPath: "/me.jpeg",
   links: {
