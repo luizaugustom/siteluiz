@@ -4,12 +4,12 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { href: "#", label: "Home" },
-  { href: "#about", label: "About" },
-  { href: "#technologies", label: "Technologies" },
-  { href: "#education", label: "Education" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "#", label: "Início" },
+  { href: "#about", label: "Sobre" },
+  { href: "#technologies", label: "Tecnologias" },
+  { href: "#education", label: "Formação" },
+  { href: "#projects", label: "Projetos" },
+  { href: "#contact", label: "Contato" },
 ];
 
 export function Header() {
@@ -22,7 +22,7 @@ export function Header() {
           href="#"
           className="text-lg font-semibold text-[var(--foreground)] transition-colors hover:text-[var(--accent)]"
         >
-          Portfolio
+          Portfólio
         </a>
 
         {/* Desktop nav */}
@@ -42,7 +42,7 @@ export function Header() {
         {/* Mobile menu button */}
         <button
           type="button"
-          aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          aria-label={mobileOpen ? "Fechar menu" : "Abrir menu"}
           aria-expanded={mobileOpen}
           className="flex flex-col gap-1.5 rounded p-2 text-[var(--foreground)] md:hidden"
           onClick={() => setMobileOpen((o) => !o)}

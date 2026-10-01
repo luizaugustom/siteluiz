@@ -32,11 +32,11 @@ export function ProjectsSection({ repos }: ProjectsSectionProps) {
       className="mx-auto max-w-6xl px-4 py-20 sm:px-6"
     >
       <h2 className="mb-10 text-3xl font-bold text-[var(--foreground)]">
-        Projects
+        Projetos
       </h2>
       {repos.length === 0 ? (
         <p className="text-[var(--foreground-muted)]">
-          Configure <code className="rounded bg-[var(--background-elevated)] px-1.5 py-0.5 text-sm">NEXT_PUBLIC_GITHUB_USERNAME</code> in .env.local to load your GitHub repositories.
+          Configure <code className="rounded bg-[var(--background-elevated)] px-1.5 py-0.5 text-sm">NEXT_PUBLIC_GITHUB_USERNAME</code> em .env.local para carregar seus repositórios do GitHub.
         </p>
       ) : (
         <motion.ul
@@ -59,7 +59,7 @@ export function ProjectsSection({ repos }: ProjectsSectionProps) {
                   {repo.name}
                 </h3>
                 <p className="mt-2 line-clamp-2 text-sm text-[var(--foreground-muted)]">
-                  {repo.description || "No description"}
+                  {repo.description || "Sem descrição"}
                 </p>
                 <div className="mt-4 flex flex-wrap gap-3 text-xs text-[var(--foreground-muted)]">
                   {repo.language && (

@@ -28,7 +28,7 @@ export function TechSection() {
       className="mx-auto max-w-6xl px-4 py-20 sm:px-6"
     >
       <h2 className="mb-10 text-3xl font-bold text-[var(--foreground)]">
-        Technologies
+        Tecnologias
       </h2>
       <motion.ul
         ref={listRef}

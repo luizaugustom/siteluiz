@@ -28,7 +28,7 @@ export function SoftwaresSection() {
       className="mx-auto max-w-6xl px-4 py-20 sm:px-6"
     >
       <h2 className="mb-10 text-3xl font-bold text-[var(--foreground)]">
-        Softwares in Production
+        Softwares em Produção
       </h2>
       <motion.div
         ref={listRef}
@@ -69,7 +69,7 @@ export function SoftwaresSection() {
               {software.username !== undefined && software.password !== undefined && (
                 <div className="mb-4 space-y-1 bg-[var(--background)]/50 rounded p-3">
                   <p className="text-xs text-[var(--foreground-muted)]">
-                    <span className="font-semibold">Email:</span> {software.username}
+                    <span className="font-semibold">E-mail:</span> {software.username}
                   </p>
                   <p className="text-xs text-[var(--foreground-muted)]">
                     <span className="font-semibold">Senha:</span> {software.password}

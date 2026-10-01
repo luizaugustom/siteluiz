@@ -1,13 +1,31 @@
 export const siteConfig = {
   name: "Luiz Augusto Monteiro",
-  title: "Software developer and support",
-  tagline: "Building digital experiences with code and creativity.",
-  bio: `Atualmente, atuo na área de Tecnologia da Informação, onde sou responsável pelo suporte a clientes e pela manutenção de softwares. Meu foco é garantir que a tecnologia seja uma facilitadora, resolvendo problemas complexos com agilidade e garantindo a satisfação de quem utiliza nossas soluções no dia a dia.
-Minha bagagem é híbrida: trago comigo anos de experiência no setor comercial, resiliência e uma facilidade natural em entender as necessidades do público — habilidades que hoje aplico para traduzir demandas técnicas em resultados práticos.
-O que busco e entrego:
-Resolução de Problemas: Diagnóstico e manutenção de sistemas com foco em melhoria contínua.
-Foco no Cliente: Atendimento consultivo e suporte técnico ágil.
-Aprendizado Contínuo: Investimento constante em novos frameworks e metodologias para acompanhar a inovação do setor.`,
+  title: "Desenvolvedor de software e suporte",
+  tagline: "Construindo experiências digitais com código e criatividade.",
+  bio: `Olá! Sou Luiz, Desenvolvedor de Software com experiência profissional no desenvolvimento, manutenção e evolução de aplicações Web e Mobile.
+
+Atuo no ciclo completo de desenvolvimento de software, desde a análise de requisitos e definição de arquitetura até desenvolvimento, integração, deploy, manutenção e evolução das aplicações. Tenho experiência prática na construção de sistemas do zero, além de projetos desenvolvidos como freelancer para diferentes clientes.
+
+Atualmente, trabalho no desenvolvimento e manutenção de sistemas Web e Mobile em ambiente profissional, participando da implementação de novas funcionalidades, correção de problemas, melhorias de performance e evolução contínua dos produtos.
+
+Tenho interesse e experiência em áreas como:
+
+• Desenvolvimento de aplicações Web e Mobile
+• Desenvolvimento Full Stack
+• Arquitetura e estruturação de sistemas
+• APIs e integrações
+• Banco de dados
+• Manutenção e evolução de sistemas
+• DevOps e processos de deploy
+• Desenvolvimento de sistemas do zero
+• Análise e resolução de problemas
+• Boas práticas de desenvolvimento de software
+
+Além da experiência profissional, venho aprimorando constantemente meus conhecimentos por meio de cursos de desenvolvimento de software na Rocketseat e, atualmente, estou cursando Análise e Desenvolvimento de Sistemas.
+
+Busco uma oportunidade como Desenvolvedor de Software, onde possa aplicar minha experiência prática, contribuir para o desenvolvimento de soluções robustas e escaláveis e continuar evoluindo tecnicamente em um ambiente de engenharia de software.
+
+Estou aberto a oportunidades como Desenvolvedor Web, Desenvolvedor Mobile, Desenvolvedor Full Stack e Desenvolvedor de Software.`,
   email: "luizlam72@gmail.com",
   avatarPath: "/me.jpeg",
   links: {
@@ -16,21 +34,21 @@ Aprendizado Contínuo: Investimento constante em novos frameworks e metodologias
     whatsapp: "https://wa.me/5548992151944",
   },
   technologies: [
-    { name: "TypeScript", category: "Language" },
-    { name: "JavaScript", category: "Language" },
+    { name: "TypeScript", category: "Linguagem" },
+    { name: "JavaScript", category: "Linguagem" },
     { name: "React", category: "Front-end" },
     { name: "React Native", category: "Front-end" },
     { name: "Next.js", category: "Front-end" },
     { name: "Node.js", category: "Back-end" },
     { name: "Tailwind CSS", category: "Front-end" },
-    { name: "PostgreSQL", category: "Database" },
+    { name: "PostgreSQL", category: "Banco de dados" },
     { name: "Git", category: "DevOps" },
     { name: "Docker", category: "DevOps" },
     { name: "REST APIs", category: "Back-end" },
   ],
   education: [
     {
-      title: "Full Stack Web Development (Node.js, React, React Native)",
+      title: "Desenvolvimento Web Full Stack (Node.js, React, React Native)",
       institution: "Faculdade de Tecnologia Rocketseat",
       year: "2023 - 2026",
       url: "https://rocketseat.com.br",
@@ -47,7 +65,13 @@ Aprendizado Contínuo: Investimento constante em novos frameworks e metodologias
       year: "2025",
       url: "https://rocketseat.com.br",
     },
-    
+    {
+      title: "Análise e Desenvolvimento de Sistemas",
+      institution: "Faculdade Digital Descomplica",
+      year: "Cursando",
+      url: "https://faculdadedescomplica.com.br",
+    },
+
   ],
   softwares: [
     {

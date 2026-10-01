@@ -73,13 +73,13 @@ export function HeroSection() {
               href="#projects"
               className="rounded-lg bg-[var(--accent)] px-6 py-3 font-medium text-white shadow-lg shadow-[var(--accent-glow)] transition-all hover:bg-[var(--accent-hover)] hover:shadow-[var(--accent)]/30"
             >
-              View projects
+              Ver projetos
             </Link>
             <Link
               href="#contact"
               className="rounded-lg border border-[var(--border)] px-6 py-3 font-medium text-[var(--foreground)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
             >
-              Contact
+              Contato
             </Link>
           </motion.div>
         </div>

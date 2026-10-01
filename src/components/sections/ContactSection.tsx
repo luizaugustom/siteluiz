@@ -5,7 +5,7 @@ import { AnimatedSection } from "@/components/ui/AnimatedSection";
 import { siteConfig } from "@/config/site";
 
 const links = [
-  { label: "Email", href: `mailto:${siteConfig.email}`, icon: "✉" },
+  { label: "E-mail", href: `mailto:${siteConfig.email}`, icon: "✉" },
   { label: "GitHub", href: siteConfig.links.github, icon: "⌘" },
   { label: "LinkedIn", href: siteConfig.links.linkedin, icon: "in" },
   { label: "WhatsApp", href: siteConfig.links.whatsapp, icon: "💬" },
@@ -18,10 +18,10 @@ export function ContactSection() {
       className="mx-auto max-w-4xl px-4 py-20 sm:px-6"
     >
       <h2 className="mb-10 text-3xl font-bold text-[var(--foreground)]">
-        Contact
+        Contato
       </h2>
       <p className="mb-8 text-[var(--foreground-muted)]">
-        Get in touch — I&apos;m open to new opportunities and conversations.
+        Entre em contato — estou aberto a novas oportunidades e conversas.
       </p>
       <ul className="flex flex-wrap gap-4">
         {links.map((link) => (

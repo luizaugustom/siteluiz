@@ -15,18 +15,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Luiz Augusto | Portfolio",
+  title: "Luiz Augusto | Portfólio",
   description:
-    "Portfolio showcasing software development skills, projects, and experience. Built with Next.js.",
+    "Portfólio com habilidades, projetos e experiência em desenvolvimento de software. Feito com Next.js.",
   openGraph: {
-    title: "Luiz Augusto | Portfolio",
+    title: "Luiz Augusto | Portfólio",
     description:
-      "Portfolio showcasing software development skills, projects, and experience.",
+      "Portfólio com habilidades, projetos e experiência em desenvolvimento de software.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Luiz Augusto | Portfolio",
-    description: "Portfolio showcasing software development skills and projects.",
+    title: "Luiz Augusto | Portfólio",
+    description: "Portfólio com habilidades e projetos em desenvolvimento de software.",
   },
   icons: {
     icon: "/favicon.svg",
@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
         className={`${geistSans.variable} ${geistMono.variable} relative min-h-screen antialiased bg-[var(--background)] text-[var(--foreground)]`}
       >
