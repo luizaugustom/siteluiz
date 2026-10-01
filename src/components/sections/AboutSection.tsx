@@ -24,6 +24,7 @@ function renderBio(bio: string): ReactNode[] {
       const items: string[] = [];
       while (i < lines.length && lines[i].trim().startsWith("•")) {
         items.push(lines[i].trim().slice(1).trim());
+        i++;
       }
       nodes.push(
         <ul key={key++} className="list-disc space-y-2 pl-6">
@@ -36,6 +37,7 @@ function renderBio(bio: string): ReactNode[] {
     }
 
     nodes.push(<p key={key++}>{line}</p>);
+    i++;
   }
 
   return nodes;
